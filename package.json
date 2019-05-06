@@ -1,0 +1,33 @@
+{
+  "author": "David J Felix <felix.davidj@gmail.com>",
+  "dependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/graphql": "^14.0.7",
+    "@types/yup": "^0.26.12",
+    "aws-sdk": "^2.432.0",
+    "cuid": "^2.1.6",
+    "graphql": "^14.2.0",
+    "lodash": "^4.17.11",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.23",
+    "@types/jest": "^23.0.0",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^11.12.0",
+    "jest": "^23.6.0",
+    "jest-haste-map": "^23.6.0",
+    "jest-resolve": "^23.6.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  },
+  "license": "UNLICENSED",
+  "main": "dist/handler.js",
+  "name": "graphql-service",
+  "private": true,
+  "types": "dist/handler.d.ts",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc && yarn install --frozen-lockfile --production"
+  }
+}
