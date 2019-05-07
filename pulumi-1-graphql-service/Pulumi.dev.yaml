@@ -1,0 +1,5 @@
+config:
+  aws:region: us-east-1
+  pulumi-1-graphql-service:codeDeployStack: davidjfelix/pulumi-0-code-deploy/dev
+  pulumi-1-graphql-service:graphql: graphql/graphql..zip
+  pulumi-1-graphql-service:userDBStack: davidjfelix/pulumi-0-user-db/dev
